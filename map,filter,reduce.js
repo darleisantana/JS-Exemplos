@@ -33,7 +33,7 @@ function mult(arr)
 
 const nums = [1,2];
 
-console.log('Map sem This: 'mult(nums));
+console.log('Map sem This: ', mult(nums));
 
 //Filter
 function filterPares(arr)
@@ -48,7 +48,7 @@ function callback(item2)
 
 const myArray = [1, 23, 55, 67, 30, 2, 4];
 
-console.log('Filter: 'filterPares(myArray));
+console.log('Filter: ', filterPares(myArray));
 
 //Reduce
 function somaNumeros(arr) 
@@ -61,4 +61,4 @@ function somaNumeros(arr)
 
 const arr = [1,2];
 
-console.log('Reduce'somaNumeros(arr));
+console.log('Reduce', somaNumeros(arr));
